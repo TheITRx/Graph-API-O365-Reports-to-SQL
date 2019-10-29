@@ -1,14 +1,14 @@
 
 # Change these variables to your liking
 
-$SubID = "b4b37933-b166-49a3-a241-d397e2bcdc79"
+$SubID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx"
 $Location = "northcentralus"
-$ResourceGroup = "jsab-grafanasqlsrv-rg"
+$ResourceGroup = "xxxrg"
 $SQLAdminCred = Get-Credential -Message "Enter the SQL Admin credentials you want to set"
-$SQLSRVName = "grafanasqlsrv"
-$SQLDBName = "grafanasqldb"
+$SQLSRVName = "xx"
+$SQLDBName = "xx"
 $SQLDBTier = "Basic"
-$GrafanaAppPIP = "98.227.152.81"
+$GrafanaAppPIP = "x.x.x.x"
 
 # End of static variables
 
