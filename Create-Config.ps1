@@ -1,3 +1,20 @@
+<#
+.SYNOPSIS
+    Creates configuration .json that will be used by the main script.
+    You need to run this first before running the main script. 
+.DESCRIPTION
+    Long description
+.EXAMPLE
+    PS C:\> <example usage>
+    Explanation of what the example does
+.INPUTS
+    Inputs (if any)
+.OUTPUTS
+    Output (if any)
+.NOTES
+    . 
+#>
+
 $config = New-Object -TypeName PSObject -Property @{ }
 
 $azureIdandKey = Get-Credential -Message "Azure App ID and Key"
