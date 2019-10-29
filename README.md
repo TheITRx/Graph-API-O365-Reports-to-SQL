@@ -7,7 +7,7 @@
     * Application ID and Secret key
     * Permissions to Graph API Reporting
 
-  * Use the Create-Database script file to create the:
+* Use the Create-Database script file to create the:
     * Resource Group
     * SQL Server
     * Database
