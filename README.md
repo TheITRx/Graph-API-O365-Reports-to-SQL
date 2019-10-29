@@ -16,12 +16,12 @@
         
      \* You can skip this part of you've created your DB already. 
     
-  * Comment/Uncomment the Create-Table function at the bottom of the script when
+* Comment/Uncomment the Create-Table function at the bottom of the script when
         Creating or after creating the tables (respectively). You only need this one time. 
 
-  * I have tested this on Windows 10 and Windows Server 2012 R2
+* I have tested this on Windows 10 and Windows Server 2012 R2
 
-  * Passwords and Secrets - prior to running the script, make sure to run the Create-Configuration
+* Passwords and Secrets - prior to running the script, make sure to run the Create-Configuration
         first. The script will ask for all the necessary information and encrypt the passwords and
         secrets to a .json file. The .json file will picked by the main script for use. 
 
