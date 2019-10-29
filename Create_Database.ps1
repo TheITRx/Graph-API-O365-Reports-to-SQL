@@ -8,7 +8,7 @@ $SQLAdminCred = Get-Credential -Message "Enter the SQL Admin credentials you wan
 $SQLSRVName = "xx"
 $SQLDBName = "xx"
 $SQLDBTier = "Basic"
-$GrafanaAppPIP = "x.x.x.x"
+$sqlClientPIP = "x.x.x.x"
 
 # End of static variables
 
@@ -50,7 +50,7 @@ az sql server firewall-rule create `
     --name grafanaapp `
     --server $SQLSRVName `
     --resource-group $ResourceGroup `
-    --start-ip-address $GrafanaAppPIP `
-    --end-ip-address $GrafanaAppPIP `
+    --start-ip-address $sqlClientPIP `
+    --end-ip-address $sqlClientPIP `
     --verbose
         
