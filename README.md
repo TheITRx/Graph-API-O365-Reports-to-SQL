@@ -14,7 +14,7 @@
     * User
     * Firewall exceptions
         
-     \* You can skip this part of you've created your DB already. 
+     \* You can skip this part if you've created your DB already. 
     
 * Comment/Uncomment the Create-Table function at the bottom of the script when
         Creating or after creating the tables (respectively). You only need this one time. 
