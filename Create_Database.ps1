@@ -1,5 +1,18 @@
-
-# Change these variables to your liking
+<#
+.SYNOPSIS
+    . Creates the SQL server, database, user account, and firewall exception where you need to managed the DB
+.DESCRIPTION
+    Long description
+.EXAMPLE
+    PS C:\> <example usage>
+    Explanation of what the example does
+.INPUTS
+    Inputs (if any)
+.OUTPUTS
+    Output (if any)
+.NOTES
+    General notes
+#>
 
 $SubID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx"
 $Location = "northcentralus"
