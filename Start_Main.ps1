@@ -1363,7 +1363,7 @@ Function Update-AllUsersData {
         "getSharePointSiteUsageDetail"
         "getSkypeForBusinessActivityUserDetail"
     
-    )[0].foreach( {
+    ).foreach( {
             Update-AllUsersData @SQLparams -ReportRoot $_
         })
 
